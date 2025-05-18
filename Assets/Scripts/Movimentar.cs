@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Movimentar : MonoBehaviour
@@ -9,8 +10,8 @@ public class Movimentar : MonoBehaviour
 
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Space)) {
-            Vector3 pos = this.transform.position;
+        if(Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0)) {
+            Vector3 pos = new Vector2(this.transform.position.x, this.transform.position.y + 0.5f);
             Instantiate(tiro, pos, Quaternion.Euler(0,0,180));
         }
     }

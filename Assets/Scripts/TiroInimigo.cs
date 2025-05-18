@@ -7,7 +7,7 @@ public class TiroInimigo : MonoBehaviour
     public GameObject tiro;
 
     void Start() {
-        InvokeRepeating("Disparar", 0, Random.Range(2, 10));
+        InvokeRepeating("Disparar", 0, Random.Range(5, 10));
     }
 
     void Disparar() {
