@@ -37,7 +37,7 @@ public class Score : MonoBehaviour
 
             PlayerPrefs.SetInt("BetterScore", contadorBetterScore);
 
-            betterScore.text = score.text = "BETTER SCORE: " + contadorBetterScore.ToString();
+            betterScore.text = "BETTER SCORE: " + contadorBetterScore.ToString();
         }
     }
 }

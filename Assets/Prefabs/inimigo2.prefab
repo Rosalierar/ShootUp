@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 1777936084304852274}
   - component: {fileID: 6648389760165188527}
   - component: {fileID: 7336690267149024768}
+  - component: {fileID: 5470501765360345002}
   m_Layer: 0
   m_Name: inimigo2
   m_TagString: Untagged
@@ -189,3 +190,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tiro: {fileID: 5104740345183651670, guid: b918e2d46f9481646923e723cbfd5be2, type: 3}
+--- !u!114 &5470501765360345002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1663929548477801593}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19662f7d07d45f14cb6183f3ec141865, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explode: {fileID: 4754224530758577421, guid: 6228d0f8214d85544aca4e9b6b110423, type: 3}
+  alvo: Player
